@@ -1,0 +1,219 @@
+body{
+    margin: 0 auto;
+    font-family: 'Manrope', sans-serif;
+    color: #1C1C1C;
+}
+.banner{}
+.container{}
+.text-r{}
+.text-r h1{
+    font-size: 80px;
+    font-weight: 800;
+    color: #1C1C1C;
+}
+.text-r p{
+    color: #777;
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn{
+    background: var(--Linear, linear-gradient(270deg, #F00 0%, #FF8938 100%));
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+.b-left{
+    position: relative;
+}
+.b-image{
+    display: flex;
+}
+.b-card{
+    width: 255px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 7px 50px 0px rgba(0, 0, 0, 0.06);
+    line-height: 10px;
+    position: absolute;
+    bottom: 15px;
+    left: 105px;
+}
+.text-l h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+.text-l p{
+    font-size: 16px;
+}
+/* our start */
+.c-text{}
+.c-text h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+.c-text p{
+    color: #777;
+    font-weight: 500;
+}
+/* our end */
+/* cup card start */
+.cup{}
+.c-cup{
+    border-radius: 10px;
+    background: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0.00) 100%);
+}
+.card h5{
+    font-size: 25px;
+    font-weight: 800;
+}
+.cup img{
+    width: 100px;
+}
+/* cup card end */
+/* great coffee start */
+.great{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.g-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 65%;
+}
+.g-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 238px;
+    height: 136px;
+}
+.g-box{}
+.box-1{
+    border-radius: 10px;
+    /* opacity: 0.1; */
+    background: var(--Linear, linear-gradient(270deg, #F00 0%, #FF8938 100%));}
+.box-2{
+    border-radius: 10px;
+    background: rgba(87, 118, 57, 0.10);}
+.box-3{
+    border-radius: 10px;
+    background: rgba(230, 166, 35, 0.10);
+}
+.box-4{
+    border-radius: 10px;
+    background: linear-gradient(90deg, #D9D9D9 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+.g-text{}
+.g-text h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+.g-text p{
+    color: #777;
+}
+.b-text{
+    margin: 50px 0px 50px 0px;
+}
+.b-text h2{
+    font-size: 20px;
+    font-weight: 800;
+    margin: ;
+}
+.b-text p{
+    font-weight: 500;
+}
+/* great coffee end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* meet start */
+.meet{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 100px 40px;
+    border-radius: 8px;
+    background: var(--Linear, linear-gradient(270deg, #F00 0%, #FF8938 100%));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* right start */
+.right{
+    width: 40%;
+    color: #F4F4F4;
+}
+.right h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+.right p{
+    margin: 40px 0px 40px 0px;
+}
+.right a{
+    text-decoration: none;
+    color: #E44D26;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #F16529, #E44D26);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #F16529, #E44D26); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FFF;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+/* right end */
+/* left start */
+.left{
+    width: 35%;
+    border-radius: 8px;
+    padding: 40px 30px;
+    background: #FFF;
+}
+.m-card{
+    width: 100%;
+    position: relative;
+ }
+.image{}
+.m-card img:nth-child(1){
+    border-radius: 60px;
+    border: #FFF solid 5px;
+    position: absolute;
+    top: -80px;
+    left: -60px;
+}
+.m-card p{}
+.icon{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.icon img{}
+.m-text{
+    line-height: 10px;
+}
+.m-test h2{
+    font-size: 16px;
+    font-weight: 700;
+}
+.m-test p{}
+/* left end */
+/* meet end */
