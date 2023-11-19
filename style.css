@@ -63,15 +63,15 @@ body{
 /* our end */
 /* cup card start */
 .cup{}
-/* .c-card:hover{
-    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
-} */
 .c-cup{
-    border-radius: 10px;
     background: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0.00) 100%);
 }
 .c-cup:hover{
     box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
+}
+.c-cup:hover h5{
+    transform: scale(1.3);
+    text-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
 }
 .card h5{
     font-size: 25px;
@@ -108,9 +108,7 @@ body{
     width: 238px;
     height: 136px;
     grid-row: span 1;
-
 }
-
 .box-2{
     border-radius: 10px;
     background: rgba(87, 118, 57, 0.10);
@@ -136,9 +134,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.box-2 img, .box-3 img:hover{
-        
 }
 .g-text{}
 .g-text h1{
@@ -232,6 +227,7 @@ body{
 /* meet end */
 /* points card start */
 .point{
+    margin: 80px 0px 80px 0px;
     display: flex;
     justify-content: center;
 }
@@ -239,7 +235,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    gap: 30px;
+    gap: 50px;
 }
 .p-card{
     border-radius: 10px;
@@ -266,3 +262,62 @@ body{
     font-weight: 700;
 }
 /* points card end */
+/* footer start */
+footer{
+    background: linear-gradient(270deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 137, 56, 0.10) 100%);
+    padding: 90px 0px 90px 0px;
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+}
+.f-image{}
+.f-text{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.f-text h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.f-text a{}
+
+
+
+
+.second{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.quink h1, .our h1, .help h1, .sub h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.quink p, .our p, .help p, .sub p{
+    font-size: 16px;
+    color: #494949;
+}
+.sub{}
+form{
+    padding-top: 40px;
+}
+form i{
+    padding-left: 100px;
+}
+.s-icon i{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.s-icon i:nth-child(2){
+    margin:0px 20px 0px 20px;
+}
+
+.last{
+    text-align: center;
+}
+/* footer end */
