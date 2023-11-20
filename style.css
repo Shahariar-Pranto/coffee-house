@@ -311,6 +311,9 @@ form input{
     font-size: 20px;
     background: transparent;   
 }
+form input:focus{
+    outline: none;
+}
 form i{
     padding-left: 10px;
     font-size: 30px;
