@@ -44,7 +44,7 @@ font-size: 30px;
 /* great coffee start */
 .g-main {
     align-items: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 .mt-5 {
     margin-top: 0.8rem!important;
@@ -208,7 +208,7 @@ font-size: 30px;
 /* great coffee start */
 .g-main {
     align-items: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 .b-text {
     margin: 30px 0px 30px 0px;
@@ -335,7 +335,7 @@ font-size: 18px;
 /* great coffee start */
 .g-main {
     align-items: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 .b-text {
     margin: 30px 0px 30px 0px;
