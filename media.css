@@ -90,7 +90,7 @@ width: 100%;
     padding: 30px 30px;
 }
 .m-card img:nth-child(1) {
-    width: 35%;
+    width: 14%;
     border-radius: 60px;
     border: #FFF solid 5px;
     position: absolute;
@@ -240,7 +240,7 @@ width: 100%;
     padding: 30px 30px;
 }
 .m-card img:nth-child(1) {
-    width: 15%;
+    width: 13%;
     border-radius: 60px;
     border: #FFF solid 5px;
     position: absolute;
