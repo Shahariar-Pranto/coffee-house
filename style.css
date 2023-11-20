@@ -168,6 +168,13 @@ body{
 .right{
     width: 40%;
     color: #F4F4F4;
+    position: relative;
+}
+.right img{
+    width: 50%;
+    position: absolute;
+    top: 85px;
+    right: 20px;
 }
 .right h1{
     font-size: 35px;
@@ -285,8 +292,7 @@ footer{
 .f-text a{}
 .second{
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;  
 }
 .quink h1, .our h1, .help h1, .sub h1{
     font-size: 20px;
@@ -296,28 +302,32 @@ footer{
     font-size: 16px;
     color: #494949;
 }
-.sub{}
 form{
     padding-top: 40px;
+    width: 100%;
+}
+form input{
+    border: none;
+    font-size: 20px;
+    background: transparent;   
 }
 form i{
-    padding-left: 100px;
+    padding-left: 10px;
     font-size: 30px;
     color: #E44D26;  /* fallback for old browsers */
     color: -webkit-linear-gradient(to right, #F16529, #E44D26);  /* Chrome 10-25, Safari 5.1-6 */
     color: linear-gradient(to right, #F16529, #E44D26); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.s-icon{
-    text-align: center;
-}
 .s-icon i{
     font-size: 30px;
     padding-top: 20px;
 }
+hr{
+    margin: 0px;
+}
 .s-icon i:nth-child(2){
     margin:0px 20px 0px 20px;
 }
-
 .last{
     text-align: center;
 }
